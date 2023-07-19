@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior:smooth;
+}
+body{
+    padding:0;
+    margin: 0;
+}
+[class*=col-]{
+    float: left;
+}
+[class*=col-]{
+    width:100%;
+}
+/* nav-bar design starts here */
+.nav-bar{
+    background-color:#2b0765;
+    text-align: center;
+    padding: 15px;
+    
+}
+.nav-logo .logo{
+    height:90px;
+}
+h1{
+    color:white;
+}
+.nav-link{
+    display:flex;
+    flex-direction:column;
+}
+.nav-link a{
+    text-decoration: none;
+    color:white;
+    padding:10px;
+    background-color:blueviolet ;
+    width:340px;
+    margin:8px auto 8px auto;
+    border-radius:20px;
+
+}
+
+.nav-bar::after{
+    display: table;
+    content: '';
+    clear:both;
+}
+.dotted-hr{
+    width:75px;
+    border: 6px dotted white;
+    border-bottom: none;
+}
+
+/* nav-bar design ends here */
+
+
+/* profile design starts here */
+.profile{
+    position: relative;
+}
+.top-img:hover{
+  transform: rotate(360deg);
+}
+.bottom-img:hover{
+    transform: rotate(360deg);}
+.top-img{
+    position: absolute;
+    top:10px;
+    right:30px;
+    height:110px;
+    transition: transform 2s;
+}
+.bottom-img{
+    position: absolute;
+    left:30px;
+    bottom:10px;
+    height:110px;
+    transition: transform 2s;
+}
+.text1{
+    padding:10px;
+    text-align: center;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-top:140px;
+
+}
+.p1{
+    color:rgb(144, 134, 134);
+    font-weight: bold;
+    margin-bottom: 140px;;
+}
+
+
+
+.profile::after{
+    display: table;
+    clear: both;
+    content: '';
+}
+
+/* profile design ends here */
+
+/* aboutme starts here */
+.about-me{
+    text-align: center;
+    background-color: #B80D57;
+    color:white;
+    margin:0 auto;
+   }
+.about-me::after{
+    display:table;
+    content:'';
+    clear:both;
+}
+.about-me-des a{
+    color:white;
+    text-decoration: none;
+}
+.aboutme-img img{
+    height:180px;
+    border:6px solid black;
+    border-radius: 50%;;
+    margin-top:20px;
+}
+h3{
+    font-size: 30px;
+}
+.aboutme-hr{
+    width:90%;
+  
+}
+.about-me-des{
+    font-size: 20px;
+  padding:15px;
+  text-align: center;
+}
+button{
+    padding:20px;
+    margin:10px;
+    border-radius: 20px;
+    border: none;
+    cursor:pointer;
+    background-color:#404B69 ;
+    color:white;
+}
+.achievement{
+    background-color:#1DAD9B ;
+    text-align: center;
+    padding:10px;
+}
+.achievement::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+input, textarea{
+    padding:15px;
+    margin:10px;
+    border: none;
+    border-radius: 15px;
+    width:390px;
+    text-align: center;
+    resize: none;
+   
+}
+.links{
+    margin-top: 100;
+    padding-bottom:100px;
+
+}
+.list{
+  
+    margin:0 auto;
+}
+/* about me ends here */
+
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    display:block;
+    padding:10px;
+}
+span{
+    font-size: 25px;
+}
+.btn{
+    font-size: 35px;
+    background-color: black;
+ 
+}
+.footer::after{
+    display: table;
+    content: '';
+    clear:both;
+}
+.footer{
+    text-align: center;
+    padding:20px;
+}
+/* skills design */
+.skills{
+    text-align: center;
+    background-color:#D3D04F ;
+    padding:90px 0 90px 0;
+    width:100%;
+  
+}
+progress{
+  padding: 20px;
+  width:400px;
+}
+
+.skils::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
